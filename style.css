@@ -1,9 +1,14 @@
 @import'utilities.css';
 
+html,body{
+	scroll-behavior: smooth;
+	background-image: src="background image.jpeg";
+}
 header{
 	background: black;
 
 	height: 80px;
+	
 }
 *{
 	padding: 0;
@@ -19,6 +24,7 @@ header{
 }
 
 
+
 header nav .left a{
 	text-decoration: none;
 	color: yellowgreen;
@@ -27,7 +33,7 @@ header nav .left a{
 }
 header nav .left a:hover{
 	color: lightseagreen;
-	transition:all .3s ease;
+	transition:all .3s;
 }
 body{
 	font-family: 'Poppins', sans-serif;
@@ -69,3 +75,44 @@ header nav .branding{
 .me .heading p{
 	margin-left: 2rem;
 }
+section{
+	padding: 40rem 0;
+}
+section.about h1{
+	margin-left: 35rem;
+	color: indianred;
+	font-weight: 200px;
+	font-size: 100px;
+}
+section.about p{
+	color: royalblue;
+	font-size: 30px;
+}
+section.projects h1{
+	margin-left: 35rem;
+	color: indianred;
+	font-size: 100px;
+	font-weight: 200px;
+}
+section.skills h1{
+	margin-left: 40rem;
+	color: indianred;
+	font-size: 100px;
+	font-weight: 200px;
+}
+section.about h3{
+	color: black;
+	font-size: 80px;
+	font-weight: 180px;
+}
+section.skills .lang ul li{
+	display: inline;
+	padding: 3rem;
+	margin-left: 150px;
+	margin-right: 150px ;
+	color: burlywood;
+	font-size: 50px;
+	font-weight: 20px;
+
+}
+
