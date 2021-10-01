@@ -1,0 +1,27 @@
+.flex{
+	display: flex;
+}
+.items-center{
+	align-items: center;
+
+}
+.justify-between{
+	justify-content: space-between;
+}
+.btn{
+	padding: 0.6rem 2rem;
+	font-size: 1rem;
+	font-weight: 700;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+.btn-prim{
+	background: limegreen;
+	color: black ;
+}
+.flex1{
+	flex: 1;
+}
+.margin{
+	align-content: center;
+}
