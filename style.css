@@ -1,0 +1,71 @@
+@import'utilities.css';
+
+header{
+	background: black;
+
+	height: 80px;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialias;
+}
+.container{
+	max-width: 1000px;
+	padding: 0 15px;
+	margin: 0 auto;
+
+}
+
+
+header nav .left a{
+	text-decoration: none;
+	color: yellowgreen;
+	margin-right: 2rem;
+
+}
+header nav .left a:hover{
+	color: lightseagreen;
+	transition:all .3s ease;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 1000;
+
+
+}
+
+header nav{
+	padding: 2rem 0;
+}
+header nav .branding{
+	margin-right: 3rem;
+}
+.me .heading{
+	color: darkcyan;
+	
+}
+.me{
+	background-color: lightgoldenrodyellow;
+	padding: 0 auto;
+}
+.me .heading h3{
+	color: darkblue;
+	margin-bottom: 0.5rem;
+	margin-left: 2rem;
+	font-weight: 1500;
+}
+.me .heading h1 {
+	font-weight: 1000;
+	margin-bottom: 1.5rem;
+	margin-left: 2rem;
+
+
+}
+.me .heading h1 span{
+	color: indianred;
+}
+.me .heading p{
+	margin-left: 2rem;
+}
